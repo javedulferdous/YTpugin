@@ -27,11 +27,17 @@
       }
     </style>
    
-    <script src="videoSpeed.js"></script>
+    <script src="videoNav.js"></script>
   </head>
   <body>
     <form>
-    
+    <div class="form-group">
+    <div class="col-xs-12">    
+    <button style="align:right" class="btn btn-primary btn-lg btn-block" id="playVideo"> Play </button><br/>
+    <button style="align:right" class="btn btn-primary btn-lg btn-block" id="pauseVideo"> Pause </button><br/>
+    <button style="align:right" class="btn btn-primary btn-lg btn-block" id="nextUp"> Next </button><br/>
+    <button style="align:right" class="btn btn-primary btn-lg btn-block" id="previousUp">Previous</button>
+    </div>
     
     <div class="form-group">
           <div class="col-xs-12">
@@ -57,7 +63,7 @@
                     </div>
                 </div>
                 <div class="col-xs-3">
-                    <button class="btn btn-info" id="speedUp">Submit</button>
+                    <button class="btn btn-primary" id="speedUp">Submit</button>
                 </div>
     </form>
   </body>
